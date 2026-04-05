@@ -172,6 +172,22 @@ Instead of typing inputs manually every time, you can use **file redirection** t
 
 Try the example inputs described above. Do you get the same results as their corresponding outputs? Now try some of your own inputs, do you get the results you would expect?
 
+### Style [0 Points]
+Coding style is an important part of ensuring readability and maintainability of your code. We will grade your code style in all submitted code files according to the style guidelines. **For PA1 only, you won't be graded on Style.** Namely, there are a few things you must have in each file/class/method:
+
+* File header
+* Class header
+* Method header(s)
+* Inline comments
+* Proper indentation
+* Descriptive variable names
+* No magic numbers (Exception: Magic numbers can be used for testing.)
+* Reasonably short methods (if you have implemented each method according to the specification in this write-up, you’re fine). This is not enforced as strictly.
+* Lines shorter than 80 characters, **including comments**
+* Javadoc conventions (`@param`, `@return` tags, `/** comments */`, etc.)
+
+A full style guide can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/README.md) and a sample styled file can be found [here](https://github.com/CaoAssignments/guides/blob/main/resources/SampleFile.java). If you need any clarifications, feel free to ask on Piazza.
+
 ## Submission
 Submit all of the following files to Gradescope by **Thursday, April 9th @ 11:59PM PST**.
  - `GradeCalculator.java`
