@@ -90,9 +90,15 @@ Follow these steps to calculate the final grade:
 #### Output
 
 Write the output to the standard output, which prints the overall score (formatted to **exactly 2 decimal places**).
-**Note:** `System.out.println()` method prints the text on the console and the cursor remains at the start of the next line at the console (i.e. it appends a newline character at the end of the line, so you **do not** need to add a newline character by yourself if you are using `System.out.println`).
-**Please follow the exact output format, or otherwise you will not get any credit.**
 
+To print a `double` to exactly 2 decimal places, use `System.out.printf`:
+```java
+System.out.printf("%.2f%n", overallScore);
+```
+- `%.2f` formats the number to 2 decimal places (e.g., `83.5` becomes `83.50`)
+- `%n` prints a newline at the end (equivalent to what `System.out.println` normally adds)
+
+**Please follow the exact output format, or otherwise you will not get any credit.**
 
 ### Example Input and Output
 
