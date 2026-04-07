@@ -81,11 +81,11 @@ Follow these steps to calculate the final grade:
     | Midterm                 | 15%    |
     | Final Exam              | 25%    |
 
-    Overall Score = `(participation_pct * 0.10) + (pa_pct * 0.40) + (quiz_pct * 0.10) + (midterm * 0.15) + (final * 0.25)`
+    Overall Score = `(participation_pct * 0.10) + (pa_pct * 0.40) + (quiz_pct * 0.10) + (midterm * 0.15) + (finalExam * 0.25)`
 
     Note: All components are percentages (0-100):
     - `participation_pct` and `pa_pct` are calculated as percentages from the inputs above
-    - `quiz_pct`, `midterm`, and `final` are already percentages from input
+    - `quiz_pct`, `midterm`, and `finalExam` are already percentages from input
 
 #### Output
 
